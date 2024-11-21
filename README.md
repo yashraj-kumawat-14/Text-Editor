@@ -15,6 +15,7 @@ A lightweight and simple text editor built using [Electron.js](https://www.elect
 
 ## **Preview**  
 ![App Screenshot](screenshot/image1.png)
+![App Screenshot](screenshot/image2.jpg)
 
 ---
 
