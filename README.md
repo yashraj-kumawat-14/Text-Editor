@@ -37,13 +37,22 @@ A lightweight and simple text editor built using [Electron.js](https://www.elect
 
 1.  Launch the app using the instructions above.
 2.  Use the menu to:
--  Create new files (File > New).
--  Open existing text files (File > Open).
--  Save or Save As files (File > Save / File > Save As).
+   -  Create new files (File > New).
+   -  Open existing text files (File > Open).
+   -  Save or Save As files (File > Save / File > Save As).
 3.  Use standard editing options (Edit > Cut / Copy / Paste).
 
 ## **Technologies Used**
 -  Electron.js: To create the desktop app.
 -  Node.js: For file system operations.
 -  HTML/CSS/JavaScript: For the frontend.
-   
+
+## **Folder Structure**
+```bash
+electron-text-editor/
+├── src/
+│   ├── index.html      # Main HTML file
+│   ├── renderer.js     # Renderer process logic
+├── main.js             # Main process logic
+├── package.json        # Project configuration
+└── README.md           # Project documentation
